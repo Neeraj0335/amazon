@@ -1,0 +1,345 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    display: flex;
+    /* height: 60px; */
+    background-color:#131921;
+    color: white;
+    justify-content: space-around;
+    /* font-size: 15px; */
+}
+.logo img{
+    margin-top: 6px;
+    height: 6vh;
+    width: 9vw;
+}
+.location{
+    margin-top: 2px;
+}
+.location i{
+    margin-left: 20px;
+    /* display: flex; */
+    /* font-size: 15px; */
+    
+}
+
+   .en1 select{
+    /* border: 2px solid red; */
+    height: 6vh;
+    margin-top: 6px;
+    width: 3vw;
+    
+   }
+   .hello {
+    margin-top: 10px;
+    height: 6vh;
+   
+
+   }
+   .return{
+    margin-top: 10px;
+
+
+   }
+   .cart{
+    height: 6vh;
+    margin-top: 20px;
+    font-size: 20px;
+   }
+   .cart i{
+    height: 6vh;
+   }
+   
+   .second1{
+    display: flex;
+    /* height: 60px; */
+    background-color: #262F40;
+    color: white;
+    justify-content: space-around;
+   }
+   .nav2{
+    display: flex;
+    /* height: 6vh; */
+    margin-top: 10px;
+   }
+   
+   .second2{
+    display: flex;
+    gap: 20px;
+
+   }
+   .second2 p{
+    margin-top: 10px;
+   }
+   .second3 img{
+    margin-top: 6px;
+    width: 30vw;
+    height: 6vh;
+    
+   }
+
+   .all1{
+    /* border: 1px solid red; */
+    width: 60vw;
+   }
+   .all1 select{
+    margin-top: 6px;
+    height: 6vh;
+    width: 2.5vw;
+   }
+   .all1 input{
+    margin-top: 6px;
+    height: 6vh;
+    width: 53vw;
+   }
+   .all1 i{
+     padding: 12px; 
+    background-color: #FEBD69;
+    /* height: vh; */
+    /* width: 3vw; */
+   }
+   .third{
+    background-color:  grey;
+   }
+.third1{
+    /* background-color: grey; */
+    display: flex;
+}
+.t1{
+    margin-left: 300px;
+    transform:rotate(-15deg);
+}
+.t2{
+    margin-top: 150px;
+    font-size: 30px;
+    margin-left: 300px;
+}
+.t3{
+    
+
+}
+.card1{
+    background-color: white;
+    /* border: 2px solid black; */
+    /* height: 60px;
+    width: 100px; */
+}
+.card1 a{
+    margin-left: 6rem;
+}
+
+.card1 h3{
+    text-align: center;
+}
+.card2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* justify-content: space-around; */
+}
+.card3 p{
+    text-align: center;
+
+}
+.card5 a{
+    margin-left: 6rem;
+    
+}
+.card7 h3{
+    text-align: center;
+}
+.card7 a{
+    margin-left: 6rem;
+    
+}
+.minicard img{
+    height: 20vh;
+    width: 10vw;
+    gap: 10px;
+    margin-left: 10px;
+}
+.minicard p{
+    text-align: center;
+}
+.card5{
+    background-color: white;
+}
+.card7{
+    background-color: white;
+}
+
+.main{
+    /* margin-top: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    /* background-color: white; */
+}
+.king{
+    margin-top: 20px;
+        background-color: #FFD77D;;
+}
+.mine1{
+    margin-top: 20px;
+    display: grid;
+    /* background-color: #FFD77D; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* align-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* height: 35vh; */
+}
+
+.min3 img{
+    margin-left: 10px;
+    height: 30vh;
+    width: 18vw;
+    /* margin-top: 100px; */
+    /* justify-content: center; */
+}
+.min3 p{
+    text-align: center;
+}
+.round{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+.round1{
+    display: flex;
+    gap: 15px;
+}
+.bottom{
+    height: 7vh;
+    background-color: #37475A;
+}
+.bottom p{
+    /* display: flex; */
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    /* margin-top: 10px; */
+    /* align-items: center; */
+    /* align-content: center;    */
+    /* align-self: center; */
+    
+}
+.last{
+    background-color: #232F3E;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    height: 40vh;
+    color: white;
+}
+.last1 a{
+    color: white;
+    text-decoration: none;
+}
+.last1{
+    display: grid;
+}
+.last2{
+    display: grid;
+    /* gap: 10p; */
+    color: white;
+   
+}
+.last2a{
+    display: grid;
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+}
+.hindu{
+    background-color: #232F3E;
+    border-top: 1px solid white;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    /* height: 10vh; */
+}
+.hindu1 img{
+    height: 10vh;
+}
+.hindu2{
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    border: 1px solid white;
+    width: 180px;
+    height: 50px ;
+    /* margin-left: 30px; */
+    /* padding-left: 20px; */
+    align-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.hindu3{
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: 1fr 1fr; */
+    align-self: center;
+    border: 1px solid white;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.hindu3 img{
+    height: 2.7vh;
+}
+.end{
+    /* display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    background-color: #131A22;
+    color: white;
+    gap: 30px;
+    padding: 2rem 20rem;
+}
+.end1 a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    /* /* /* justify-content: space-around;  */
+}
+.two{
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr;  */
+    background-color: #131A22;;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    text-align: center;
+    gap: 20px; 
+    padding: 3rem 20rem 3rem 35rem;
+    /* margin-left: 5rem; */
+
+}
+.two1{
+    /* text-align: center; */
+    /* margin-left: 100px; */
+    /* padding-left: 4px; */
+    gap: 20px;
+}
+.two a{
+    color: white;
+    text-decoration: none;
+}
